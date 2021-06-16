@@ -1,5 +1,6 @@
 # PhoneNumberFormatter
 
+```php
 $phone = new PhoneNumberFormatter( '8(999) 5550055' );
 
 $phone->cleary()->get();
@@ -13,3 +14,5 @@ $phone->pretty()->get();
 $phone->normalize()->get();
 
 //  +79995550055
+
+```
